@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+/* main{
+    height: 90vh;
+} */
+
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6afc6;
+}
+
+header nav {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+header nav a {
+  padding: 0 5px;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+ul li {
+  display: flex;
+}
+
+.imageLogo img {
+  background-color: rgba(0, 255, 255, 0);
+  height: 80px;
+  width: 100px;
+  margin: 5px;
+}
+
+.imgMarket {
+  display: flex;
+  justify-content: center;
+}
+
+.imgMarket img {
+  width: 100%;
+  height: 60vh;
+}
+
+.textSobre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  margin: 0em 2em;
+  text-align: center;
+}
+
+.textSobre h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Chewy", system-ui;
+  font-weight: 600;
+  font-style: italic;
+  color: #f6afc6;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+#txtProd {
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 10px;
+}
+
+.prevCatalogo {
+  height: 50vh;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.boxImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.boxImgProduto {
+  height: 100%;
+  width: 15%;
+  margin: 10px;
+  background-color: #ffffff00;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+}
+
+.boxImgProduto img {
+  height: 75%;
+  width: 100%;
+  border-radius: 30px;
+}
+
+.boxTxtProduto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 25%;
+  background-color: #ffffff;
+}
+.btnVerMais {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  
+}
+
+.btnMaisInfo {
+  width: 230px;
+  height: 45px;
+  border-radius: 25px;
+  background-color: #f6afc6;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  font-weight: 800;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #FFF;
+}
+
+.textSobre a{
+  text-decoration: none;
+  font-family: "Chewy", system-ui;
+  font-weight: 600;
+  font-style: italic;
+  color: #f6afc6;
+  font-size: 24px;
+  color: #f6afc6;
+}
+
+.rodape {
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  background-color: #f6afc6;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+}

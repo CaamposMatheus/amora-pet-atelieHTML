@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main{
+    height: 80vh;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f6afc6;
+}
+
+header nav {
+  display: flex;
+  margin: 10px;
+  padding: 10px;
+}
+
+header nav a {
+  padding: 0 5px;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+ul li {
+  display: flex;
+}
+
+.imageLogo img {
+  height: 80px;
+  width: 100px;
+  margin: 5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.ttlQuemsomos {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.ttlQuemsomos h1 {
+  display: flex;
+  justify-content: center;
+  font-family: "Chewy", system-ui;
+  font-weight: 600;
+  font-style: italic;
+  color: #f6afc6;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.txtProd {
+  font-size: 24px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-top: 10px;
+}
+
+.rodape {
+  height: 8.9vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  background-color: #f6afc6;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 10px;
+}
